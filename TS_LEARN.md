@@ -1,0 +1,21 @@
+# Types
+- String
+- Boolean
+- Number
+- Date
+- Any (js de yok)
+- Unknown (js de yok)
+
+- değişkenler class içersinde tanımlamak ister isek var let vs kullanmaya gerek yoktur.class lar içerisinde değilde metotlarda vs kullanacaksak "const let var" kullanılabilir.
+- ismi yazıp iki nokta yazıyoruz sonra type türünü yazıyoruz ( example => name:string="Tarık";, isUser:boolean=false;, createdDate:Date=new Date(); names:string[]=["tarık", "mahmut"] 
+- tipini bilmiyorsak any type ifadesi kullanılır.
+- daha derlenmeden kodlama esnasında uyarı verir.
+- unknown type ile any aynı gibidir, arasındaki fark; eğer değerin türünü biliyorsak mesela number ise ona ait metotları kullanabiliyoruz ama unknown ise type diğer type metotlarını kullanamayız ancak örneğin (this.type1 as number).toFixed() gibi number metodu kullanılabilir.
+- değişken tanımlarken tipini yazmasakta eğer = karşılığındaki değere göre typescript tipine atama yapıyor.
+- dönüş tipini belirleyebiliyoruz. eğer hiçbir değer dönmeyecekse void olur.
+- public ve private gibi erişim belirleyicileri js de yok ts de var.
+- public, private, protected erişim belirleyicileri vardır.
+- protected erişim belirleyicisi sadece miras aldığımız sınıflarda kullanabiliriz.
+- classlarımızın kullanacağı ortak propert veya metotları interface içerisinde tanımlayabiliyoruz.
+- implements ile interface olarak belirlediğimiz kalıplardan class lar oluşturabiliyoruz.
+- değişkene interface de atayabiliriz.
